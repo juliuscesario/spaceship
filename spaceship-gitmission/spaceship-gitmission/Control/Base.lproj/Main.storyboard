@@ -78,7 +78,6 @@
                                 </state>
                                 <connections>
                                     <action selector="navigateToElectrical:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y59-B6-ASK"/>
-                                    <segue destination="3yZ-kw-OWt" kind="presentation" modalPresentationStyle="fullScreen" id="O5P-2E-Rwj"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Academy Spaceship" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wUV-Eg-mZm">

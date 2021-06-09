@@ -57,6 +57,7 @@
                                 </state>
                                 <connections>
                                     <action selector="navigateToEngine:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R3d-JQ-zZV"/>
+                                    <segue destination="Ntp-l2-itk" kind="show" id="YWN-bI-Le5"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E67-MK-Af1">
@@ -117,6 +118,15 @@
             </objects>
             <point key="canvasLocation" x="97" y="94"/>
         </scene>
+        <!--Engine-->
+        <scene sceneID="BqS-CB-c5T">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Engine" id="Ntp-l2-itk" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="WEU-xZ-CtJ"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lob-dA-ngI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="693" y="94"/>
         <!--Cockpit-->
         <scene sceneID="rRb-uC-1g7">
             <objects>

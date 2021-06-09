@@ -8,6 +8,16 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Fuel-->
+        <scene sceneID="Ytq-31-y0k">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Fuel" id="W7b-iR-sW7" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="mp7-YA-ZpR"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mar-lp-iJC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="695" y="214"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -36,6 +46,7 @@
                                 </state>
                                 <connections>
                                     <action selector="navigateToCockpit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W4E-PK-wGC"/>
+                                    <segue destination="aRI-kH-HeI" kind="show" id="EJP-5v-pb4"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F1W-Bd-Uae">
@@ -46,6 +57,7 @@
                                 </state>
                                 <connections>
                                     <action selector="navigateToEngine:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R3d-JQ-zZV"/>
+                                    <segue destination="Ntp-l2-itk" kind="show" id="YWN-bI-Le5"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E67-MK-Af1">
@@ -56,6 +68,7 @@
                                 </state>
                                 <connections>
                                     <action selector="navigateToFuel:" destination="BYZ-38-t0r" eventType="touchUpInside" id="USF-fa-0oK"/>
+                                    <segue destination="W7b-iR-sW7" kind="show" id="Vo3-AG-14a"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GB8-1U-0sr">
@@ -66,6 +79,7 @@
                                 </state>
                                 <connections>
                                     <action selector="navigateToElectrical:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y59-B6-ASK"/>
+                                    <segue destination="Jtl-am-UVE" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="t4b-qE-0Zq"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Academy Spaceship" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wUV-Eg-mZm">
@@ -104,6 +118,34 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="97" y="94"/>
+        </scene>
+        <!--Electrical-->
+        <scene sceneID="ikw-1r-uuF">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Electrical" id="Jtl-am-UVE" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="06C-xh-x3Z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="705" y="141"/>
+        </scene>
+        <!--Engine-->
+        <scene sceneID="BqS-CB-c5T">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Engine" id="Ntp-l2-itk" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="WEU-xZ-CtJ"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lob-dA-ngI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="693" y="94"/>
+        </scene>
+        <!--Cockpit-->
+        <scene sceneID="rRb-uC-1g7">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Cockpit" id="aRI-kH-HeI" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="1TA-j8-IR2"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YY9-tw-0KU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="588" y="143"/>
         </scene>
     </scenes>
     <resources>

@@ -2,12 +2,22 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18092"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Fuel-->
+        <scene sceneID="Ytq-31-y0k">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Fuel" id="W7b-iR-sW7" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="mp7-YA-ZpR"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mar-lp-iJC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="695" y="214"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -36,6 +46,7 @@
                                 </state>
                                 <connections>
                                     <action selector="navigateToCockpit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W4E-PK-wGC"/>
+                                    <segue destination="aRI-kH-HeI" kind="show" id="EJP-5v-pb4"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F1W-Bd-Uae">
@@ -56,6 +67,7 @@
                                 </state>
                                 <connections>
                                     <action selector="navigateToFuel:" destination="BYZ-38-t0r" eventType="touchUpInside" id="USF-fa-0oK"/>
+                                    <segue destination="W7b-iR-sW7" kind="show" id="Vo3-AG-14a"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GB8-1U-0sr">
@@ -104,6 +116,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="97" y="94"/>
+        </scene>
+        <!--Cockpit-->
+        <scene sceneID="rRb-uC-1g7">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Cockpit" id="aRI-kH-HeI" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="1TA-j8-IR2"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YY9-tw-0KU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="588" y="143"/>
         </scene>
     </scenes>
     <resources>

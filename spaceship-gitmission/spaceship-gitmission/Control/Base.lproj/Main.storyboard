@@ -66,6 +66,7 @@
                                 </state>
                                 <connections>
                                     <action selector="navigateToElectrical:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y59-B6-ASK"/>
+                                    <segue destination="Jtl-am-UVE" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="t4b-qE-0Zq"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Academy Spaceship" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wUV-Eg-mZm">
@@ -104,6 +105,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="97" y="94"/>
+        </scene>
+        <!--Electrical-->
+        <scene sceneID="ikw-1r-uuF">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Electrical" id="Jtl-am-UVE" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="06C-xh-x3Z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="705" y="141"/>
         </scene>
     </scenes>
     <resources>

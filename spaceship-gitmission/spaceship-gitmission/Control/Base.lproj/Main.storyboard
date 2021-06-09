@@ -127,6 +127,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lob-dA-ngI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="693" y="94"/>
+        </scene>
         <!--Cockpit-->
         <scene sceneID="rRb-uC-1g7">
             <objects>
